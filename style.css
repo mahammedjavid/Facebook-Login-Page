@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.facebook-container{
+    width: 50%;
+    margin: 10em 0;
+    margin-right: 2em;
+    float: left;
+}
+
+h1{
+    color: blue;
+
+}
+
+input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px 15px;
+    
+
+}
+
+button{
+    background: blue;
+    color: white;
+    border-radius: 4em;
+    border: none;
+}  
+
+.card{
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+0 0 0 2px rgb(255, 255, 255),
+0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+margin-top: 10em;
+float: right;
+}
+
+
+@media screen and (max-width: 1000px) {
+.facebook-container {
+        width: 90%;
+        margin: 3em 1em;
+        margin-left: 0.5em;
+        
+    }
+    .card{
+        float: left;
+        margin-top: auto;   
+        margin-left: 1.5em;
+        width: fit-content;
+        margin-left: -0.2em;
+    }
+}
+
+
+
+
